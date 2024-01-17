@@ -96,7 +96,6 @@ var finances = [
   
   for (let i = 0; i < length; i++) {
     netTotal += finances[i][1];
-    // console.log(finances [i][1]);
     if (finances [i][1] > largestNumber) {
         largestNumber = finances [i][1]
     }
